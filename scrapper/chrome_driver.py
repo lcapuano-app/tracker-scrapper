@@ -9,8 +9,8 @@ def get_chrome( env = 'DEV' ):
   options = Options()
   options.add_argument("--disable-blink-features=AutomationControlled")
 
-  if ( env == 'PROD' ):
-    options.add_argument('--headless')
+  """ if ( env == 'PROD' ):
+    options.add_argument('--headless') """
 
   driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
