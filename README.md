@@ -10,7 +10,7 @@ Gets valorant's player statistics from tracker gg page using selenium chrome web
 ### Install
 
 ```
-pip i -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Help
@@ -20,7 +20,7 @@ python main.py -h
 main.py
 -e <env> => (prod or dev)
 -t <type> => (profile, map, agent, weapon or match)
--u <user> => (riot#id)
+-u <user> => (riot#id use quotes if you have spaces) 
 
 ```
 
