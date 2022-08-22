@@ -29,7 +29,7 @@ env (optional) = "PROD"  (default) || "DEV"
 (DEV) Uses your chrome (UI) as an actual display.
 ___
 
-type (optional) = "profile" ||  "map"||  "agent"  || "weapon" || "match" 
+type (optional) = "profile" ||  "map"||  "agent"  || "weapon" || "match"
 Sets witch playlist type it should get (default = "PROFILE").
 ___
 
