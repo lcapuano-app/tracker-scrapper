@@ -10,7 +10,6 @@ def get_by( data_type, riot_id, env ):
   if '#' not in riot_id:
     return invalid_id()
 
-  print(data_type, riot_id, env)
   data = req_tracker_data( data_type, riot_id, env )
   json_data = json.loads(data)
   json_data['trackerProfile'] = tracker_urls.url_overview( riot_id )

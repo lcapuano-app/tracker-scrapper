@@ -1,7 +1,7 @@
+
 import sys
-#import tracker_scrapper as trk
 from setup import cmd_line_args, fake_display
-from scrapper import tracker as trk
+from scrapper import save_as, tracker as trk
 
 if __name__ == "__main__":
 
@@ -14,6 +14,9 @@ if __name__ == "__main__":
     riot_id   = params['riot_id'],
     env       = params['env']
   )
+
+
+  #file_path = save_as.json_file( str_data=data, riot_id=params['riot_id'] )
 
   print(data)
 

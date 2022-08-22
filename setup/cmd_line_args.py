@@ -10,7 +10,6 @@ import setup.config as cfg
 
 """
 def get_params( argv ):
-  print(argv)
   arg_env = cfg.env
   arg_type = cfg.type
   arg_user = cfg.riot_id
